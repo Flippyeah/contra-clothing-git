@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.woordmerk-cause img {
+  display: flex;
+  margin: auto;
+  max-width: 118.6px;
+  max-height: 75px;
+}
+
+.woordmerk-about img {
+  display: flex;
+  margin: auto;
+  max-width: 139px;
+  max-height: 75px;
+}
+
+#woordmerk {
+  display: flex;
+  margin: auto;
+  margin-top: 3.4em;
+  max-width: 50%;
+}
+
+#woordmerk img {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+nav img {
+  display: flex;
+  margin: auto;
+  width: 58%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav2 img {
+  display: flex;
+  margin-left: -4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 20%;
+}
+
+.logo {
+  display: flex;
+  margin: 1em auto;
+  width: 7%;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.container2 {
+  width: 100vw;
+  padding: 1em 1.5em;
+}
+
+.page1 {
+  background: url("/images/plant-left.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-y: -0.2em;
+}
+
+.page2 {
+  background: url("/images/plant-right.png"), url("/images/monstera-left.png");
+  background-size: 120px, 89px;
+  background-repeat: no-repeat;
+  background-position: top left, top right;
+  background-position-y: -0.2em, 8.5em;
+}
+
+.page3 {
+  background: url("/images/monstera-right.png"),
+    url("/images/monstera-left.png");
+  background-size: 89px, 90px;
+  background-repeat: no-repeat;
+  background-position: top left, top right;
+  background-position-y: 8.5em, -3em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gallery-link a {
+  border: 1px #000000 solid;
+  outline: 1px #b4b4b4 solid;
+  border-radius: 0.2em;
+  padding: 3px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.gallery-link {
+  margin-top: 0.5em;
+}
+
+.imgrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  margin-bottom: 1em;
+}
+
+.imgrow img {
+  border-radius: 0.2em;
+  box-shadow: 2px 5px 15px #1d1d1d;
+}
+
+.style-gallery {
+  background: #313131;
+  color: #e1e1e1;
+}
+
+.box {
+  width: 100vw;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em 1.5em;
+}
+
+.box1 {
+  width: 100vw;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em 1.5em;
+}
+
+.box3 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box3 img {
+  display: flex;
+  margin: 1em auto;
+  width: 20vw;
+}
+
+.box3 .content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 .img {
+  width: 50vw;
+}
+
+.box1 img {
+  margin-left: 1em;
+  width: 120px;
+  height: 360px;
+}
+
+.box1 .content {
+  width: 50vw;
+}
+
+.box .img {
+  width: 50vw;
+}
+
+.box img {
+  border-radius: 0.2em;
+  box-shadow: 2px 5px 15px #ababab;
+}
+
+.box .content {
+  width: 50vw;
+}
+
+.fire {
+  margin-top: -1em;
+}
+
+.textimg img {
+  margin-top: 1em;
+  margin-left: -0.1em;
+  width: 30%;
+  height: 30%;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
