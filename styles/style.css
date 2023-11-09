@@ -79,7 +79,7 @@ img {
 }
 
 .page1 {
-  background: url("/images/plant-left.png");
+  background: url("../images/plant-left.png");
   background-size: 120px;
   background-repeat: no-repeat;
   background-position: top right;
@@ -87,7 +87,7 @@ img {
 }
 
 .page2 {
-  background: url("/images/plant-right.png"), url("/images/monstera-left.png");
+  background: url("../images/plant-right.png"), url("../images/monstera-left.png");
   background-size: 120px, 89px;
   background-repeat: no-repeat;
   background-position: top left, top right;
@@ -95,8 +95,8 @@ img {
 }
 
 .page3 {
-  background: url("/images/monstera-right.png"),
-    url("/images/monstera-left.png");
+  background: url("../images/monstera-right.png"),
+    url("../images/monstera-left.png");
   background-size: 89px, 90px;
   background-repeat: no-repeat;
   background-position: top left, top right;
